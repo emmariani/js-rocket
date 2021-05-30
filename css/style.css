@@ -10,3 +10,16 @@ a {
 a:hover {
   	color: grey;
 }
+
+.cool{
+	visibility: hidden;
+	width: 100px;
+	height:  40px;
+	background-color: peachpuff;
+	transition: background-color 2s;
+}
+
+.cool.blue{
+	visibility: visible;
+	background-color: slateblue;
+}

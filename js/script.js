@@ -1,3 +1,14 @@
+var doCoolStuff = function () {
+	var currentClassName = document.getElementById('cool').className;
+
+
+	if (currentClassName == 'cool'){
+		document.getElementById('cool').className = 'cool blue';
+	} else {
+		document.getElementById('cool').className = 'cool';
+	}
+}
+
 var car = {
 		make: 'Fiat',
 		type: 'Panda',
